@@ -21,7 +21,8 @@ angular
       events:true,
     });
 
-    $urlRouterProvider.otherwise('/dashboard/home');
+    $urlRouterProvider.otherwise('/login');
+
 
     $stateProvider
       .state('dashboard', {
@@ -125,10 +126,7 @@ angular
           }
         }
     })
-      .state('dashboard.table',{
-        templateUrl:'views/table.html',
-        url:'/table'
-    })
+
       .state('dashboard.panels-wells',{
           templateUrl:'views/ui-elements/panels-wells.html',
           url:'/panels-wells'
@@ -153,6 +151,34 @@ angular
        templateUrl:'views/ui-elements/grid.html',
        url:'/grid'
    })
+        .state('dashboard.details',{
+            templateUrl:'views/personal-data/personal-details.html',
+            url:'/personal-details'
+        })
+        .state('dashboard.contracts',{
+            templateUrl:'views/personal-data/contracts.html',
+            url:'/contracts'
+
+        })
+        .state('dashboard.payments',{
+            templateUrl:'views/personal-data/payments.html',
+            url:'/payments'
+
+        })
+        .state('dashboard.orders',{
+            templateUrl:'views/personal-data/orders.html',
+            url:'/rectors-orders'
+        })
+
+        .state('dashboard.grade', {
+            templateUrl:'views/personal-data/grade.html',
+            url:'grade'
+        })
+        .state('dashboard.faq', {
+            templateUrl:'views/faq.html',
+            url:'/faq'
+        })
+
   }]);
 
     
