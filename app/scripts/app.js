@@ -178,7 +178,18 @@ angular
             templateUrl:'views/faq.html',
             url:'/faq'
         })
-
+        .state('dashboard.documents',{
+            templateUrl:'views/documents.html',
+            url:'/documents'
+        })
+        .state('dashboard.news',{
+            templateUrl:'views/news.html',
+            url:'/news'
+        })
+        .state('dashboard.bach-info',{
+            templateUrl:'views/bach-info.html',
+            url:'/bachelor-info'
+        })
   }]);
 
     
