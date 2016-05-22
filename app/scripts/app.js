@@ -88,69 +88,21 @@ angular
               'scripts/directives/timeline/timeline.js',
               'scripts/directives/notifications/notifications.js',
               'scripts/directives/chat/chat.js',
-              'scripts/directives/dashboard/stats/stats.js'
+              'scripts/directives/schedule/schedule.js',
+              'scripts/directives/dashboard/stats/stats.js',
+              'scripts/controllers/chatjq.js'
               ]
             })
           }
         }
       })
-      .state('dashboard.form',{
-        templateUrl:'views/form.html',
-        url:'/form'
-    })
-      .state('dashboard.blank',{
-        templateUrl:'views/pages/blank.html',
-        url:'/blank'
-    })
+
       .state('login',{
         templateUrl:'views/pages/login.html',
         url:'/login'
     })
-      .state('dashboard.chart',{
-        templateUrl:'views/chart.html',
-        url:'/chart',
-        controller:'ChartCtrl',
-        resolve: {
-          loadMyFile:function($ocLazyLoad) {
-            return $ocLazyLoad.load({
-              name:'chart.js',
-              files:[
-                'bower_components/angular-chart.js/dist/angular-chart.min.js',
-                'bower_components/angular-chart.js/dist/angular-chart.css'
-              ]
-            }),
-            $ocLazyLoad.load({
-                name:'sbAdminApp',
-                files:['scripts/controllers/chartContoller.js']
-            })
-          }
-        }
-    })
 
-      .state('dashboard.panels-wells',{
-          templateUrl:'views/ui-elements/panels-wells.html',
-          url:'/panels-wells'
-      })
-      .state('dashboard.buttons',{
-        templateUrl:'views/ui-elements/buttons.html',
-        url:'/buttons'
-    })
-      .state('dashboard.notifications',{
-        templateUrl:'views/ui-elements/notifications.html',
-        url:'/notifications'
-    })
-      .state('dashboard.typography',{
-       templateUrl:'views/ui-elements/typography.html',
-       url:'/typography'
-   })
-      .state('dashboard.icons',{
-       templateUrl:'views/ui-elements/icons.html',
-       url:'/icons'
-   })
-      .state('dashboard.grid',{
-       templateUrl:'views/ui-elements/grid.html',
-       url:'/grid'
-   })
+
         .state('dashboard.details',{
             templateUrl:'views/personal-data/personal-details.html',
             url:'/personal-details'
@@ -172,7 +124,7 @@ angular
 
         .state('dashboard.grade', {
             templateUrl:'views/personal-data/grade.html',
-            url:'grade'
+            url:'/grade'
         })
         .state('dashboard.faq', {
             templateUrl:'views/faq.html',
@@ -189,6 +141,10 @@ angular
         .state('dashboard.bach-info',{
             templateUrl:'views/bach-info.html',
             url:'/bachelor-info'
+        })
+        .state('dashboard.contacts',{
+            templateUrl:'views/contacts.html',
+            url:'/contacts'
         })
   }]);
 
