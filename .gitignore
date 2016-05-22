@@ -4,5 +4,5 @@
 /dist
 /.tmp
 /acceptance-tests/vendor
-/acceptance-tests/_output
+/acceptance-tests/tests/_output
 .DS_Store
