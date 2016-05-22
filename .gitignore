@@ -3,3 +3,5 @@
 .idea
 /dist
 /.tmp
+/acceptance-tests/vendor
+/acceptance-tests/_output
