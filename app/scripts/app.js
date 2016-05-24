@@ -148,7 +148,16 @@ angular
             })
             .state('dashboard.documents', {
                 templateUrl: 'views/documents.html',
-                url: '/documents'
+                url: '/documents',
+                controller: 'documentsCtrl',
+                resolve: {
+                    loadMyFile: function ($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            name: 'sbAdminApp',
+                            files: ['scripts/controllers/documentsCtrl.js']
+                        })
+                    }
+                }
             })
             .state('dashboard.news', {
                 templateUrl: 'views/news.html',
