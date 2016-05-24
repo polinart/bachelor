@@ -28,7 +28,6 @@ angular
             .state('dashboard', {
                 url: '/dashboard',
                 templateUrl: 'views/dashboard/main.html',
-                controller: 'scheduleCtrl',
                 resolve: {
                     loadMyDirectives: function ($ocLazyLoad) {
                         return $ocLazyLoad.load(
@@ -131,7 +130,16 @@ angular
             })
             .state('dashboard.payments', {
                 templateUrl: 'views/personal-data/payments.html',
-                url: '/payments'
+                url: '/payments',
+                controller: 'paymentCtrl',
+                resolve: {
+                    loadMyFile: function ($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            name: 'sbAdminApp',
+                            files: ['scripts/controllers/paymentCtrl.js']
+                        })
+                    }
+                }
 
             })
             .state('dashboard.orders', {
