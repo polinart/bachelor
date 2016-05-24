@@ -12,7 +12,7 @@ class LoginCest
     }
 
     // tests
-    public function tryToTest(AcceptanceTester $I)
+    public function testLoginToSite(AcceptanceTester $I)
     {
         $I->wantTo('log in to site');
         $I->amOnPage('/#/login');
