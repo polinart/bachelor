@@ -1,0 +1,344 @@
+[
+    {
+        "semester" : "1 Semester",
+        "grades" : [
+            {
+                "number" : 1,
+                "subject": "Computer Systems Structure",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Boriss Ciļkers",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Higher Mathematics",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Vladimirs Labejevs",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Programming",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Irina Pticina",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Computer Systems Structure",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Boriss Ciļkers",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            }
+        ]
+    },
+    {
+        "semester" : "2 Semester",
+        "grades" : [
+            {
+                "number" : 1,
+                "subject": "Computer Systems Structure",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Boriss Ciļkers",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Higher Mathematics",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Vladimirs Labejevs",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Programming",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Irina Pticina",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Computer Systems Structure",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Boriss Ciļkers",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            }
+        ]
+    },
+    {
+        "semester" : "3 Semester",
+        "grades" : [
+            {
+                "number" : 1,
+                "subject": "Computer Systems Structure",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Boriss Ciļkers",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Higher Mathematics",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Vladimirs Labejevs",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Programming",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Irina Pticina",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Computer Systems Structure",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Boriss Ciļkers",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            }
+        ]
+    },
+    {
+        "semester" : "4 Semester",
+        "grades" : [
+            {
+                "number" : 1,
+                "subject": "Computer Systems Structure",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Boriss Ciļkers",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Higher Mathematics",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Vladimirs Labejevs",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Programming",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Irina Pticina",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Computer Systems Structure",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Boriss Ciļkers",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            }
+        ]
+    },
+    {
+        "semester" : "5 Semester",
+        "grades" : [
+            {
+                "number" : 1,
+                "subject": "Computer Systems Structure",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Boriss Ciļkers",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Higher Mathematics",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Vladimirs Labejevs",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Programming",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Irina Pticina",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Computer Systems Structure",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Boriss Ciļkers",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            }
+        ]
+    },
+    {
+        "semester" : "6 Semester",
+        "grades" : [
+            {
+                "number" : 1,
+                "subject": "Computer Systems Structure",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Boriss Ciļkers",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Higher Mathematics",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Vladimirs Labejevs",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Programming",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Irina Pticina",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            },
+            {
+                "number" : 1,
+                "subject": "Computer Systems Structure",
+                "grade" : 8,
+                "block" : "B",
+                "part" : "1",
+                "credit_points" : "4",
+                "assessment_date" : "18.01.2013",
+                "reporting_type" : "exam",
+                "lecturer" : "Boriss Ciļkers",
+                "report_type" : "Report sheet",
+                "hei" : ""
+            }
+        ]
+    }
+]

@@ -148,7 +148,16 @@ angular
             })
             .state('dashboard.grade', {
                 templateUrl: 'views/personal-data/grade.html',
-                url: '/grade'
+                url: '/grade',
+                controller: 'gradesCtrl',
+                resolve: {
+                    loadMyFile: function ($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            name: 'sbAdminApp',
+                            files: ['scripts/controllers/gradesCtrl.js']
+                        })
+                    }
+                }
             })
             .state('dashboard.faq', {
                 templateUrl: 'views/faq.html',
