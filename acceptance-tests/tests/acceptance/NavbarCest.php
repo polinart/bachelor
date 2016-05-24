@@ -20,7 +20,7 @@ class NavbarCest
         $I->seeElement('ul.navbar-top-links');
         $I->click('ul.navbar-top-links a.dropdown-toggle');
         $I->seeElement('ul.dropdown-menu');
-        $I->click('a[href="#/dashboard/personal-details"]');
+        $I->click('a[href="#/dashboard/profile"]');
         $I->wait(1);
         $I->seeElement('img.avatar');
         $I->seeElement('div.card');

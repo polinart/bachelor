@@ -47,13 +47,4 @@ class MainPageCest
         $I->dontSeeElement('div[id="day"]');
     }
 
-    public function testThatUserCanWriteChatMessages(AcceptanceTester $I) {
-        $I->wantTo('see chat');
-        $I->amOnPage('index.html#/dashboard/home');
-        $I->wait(1);
-        $I->see('Chat');
-        $I->fillField('input#chat-input', 'hello');
-        $I->click('button#btn-chat');
-        $I->see('hello', 'div.chat-body p');
-    }
 }
