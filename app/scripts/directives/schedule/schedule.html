@@ -1,30 +1,15 @@
-<div class="chat-panel panel panel-default">
-<div class="panel-heading">
-    <i class="fa fa-fw fa-calendar"></i> Schedule
-    <div class="btn-group pull-right">
-        <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-            <i class="fa fa-chevron-down"></i>
-        </button>
-        <ul class="dropdown-menu slidedown">
-            <li>
-                <a>
-                    <i class="fa fa-cog fa-fw"></i> Filter
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-<div class="panel-body">
+<div class="row">
 <div class="card">
 <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" ><a data-target="#month" aria-controls="home" role="tab" data-toggle="tab">Month</a></li>
+    <li role="presentation"><a data-target="#month" aria-controls="home" role="tab" data-toggle="tab">Month</a></li>
     <li role="presentation"><a data-target="#week" aria-controls="profile" role="tab" data-toggle="tab">Week</a></li>
-    <li role="presentation" class="active"><a data-target="#day" aria-controls="profile" role="tab" data-toggle="tab">Day</a></li>
+    <li role="presentation" class="active"><a data-target="#day" aria-controls="profile" role="tab" data-toggle="tab">Day</a>
+    </li>
 </ul>
 
 <!-- Tab panes -->
 <div class="tab-content tabs-schedule">
-<div role="tabpanel" class="tab-pane" id="month">
+<div role="tabpanel" class="tab-pane" id="month" ng-controller="scheduleCtrl">
     <div class="table-responsive">
         <table class="table table-condensed">
             <thead>
@@ -235,27 +220,18 @@
             </thead>
             <tbody>
             <tr class="schedule-day-dilimiter">
-                <td colspan="4">Monday 04.04.2016</td>
+                <td colspan="4">{{day.day}}</td>
             </tr>
-            <tr>
-                <td>18:15</td>
-                <td>506</td>
-                <td>Logical Programming</td>
-                <td>Dmitrijs Lancovs</td>
-            </tr>
-            <tr>
-                <td>20:00</td>
-                <td>506</td>
-                <td>Logical Programming</td>
-                <td>Dmitrijs Lancovs</td>
+            <tr ng-repeat="lecture in day.schedule">
+                <td>{{lecture.time}}</td>
+                <td>{{lecture.audience}}</td>
+                <td>{{lecture.lecture}}</td>
+                <td>{{lecture.lecturer}}</td>
             </tr>
             </tbody>
         </table>
     </div>
 </div>
 </div>
-</div>
-
-
 </div>
 </div>

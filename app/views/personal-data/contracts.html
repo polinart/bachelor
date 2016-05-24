@@ -12,98 +12,126 @@
             <div class="panel-body">
                 <div class="table-responsive">
                     <table class="table table-bordered table-condensed table-hover">
-            <thead>
-            <tr>
-                <th rowspan="2">
-                    Period			</th>
-                <th colspan="2">
-                    Active contract			</th>
-                <th rowspan="2">
-                    Code of the Faculty			</th>
+                        <thead>
+                        <tr>
+                            <th rowspan="2">
+                                Period
+                            </th>
+                            <th colspan="2">
+                                Active contract
+                            </th>
+                            <th rowspan="2">
+                                Code of the Faculty
+                            </th>
 
-                <th rowspan="2">
-                    Programme			</th>
-                <th rowspan="2">
-                    Year of study			</th>
-                <th rowspan="2">
-                    Department			</th>
-                <th colspan="2">
-                    Sum, Eiro			</th>
-                <th colspan="2">
-                    Discount%			</th>
-                <th colspan="2">
-                    Discount, Eiro			</th>
-                <th colspan="2">
-                    Sum for payment, Eiro			</th>
-                <th colspan="2">
-                    Type of payment			</th>
-                <th colspan="2">
-                    Credit			</th>
-                <th rowspan="2">
-                    Paid			</th>
-                <th rowspan="2">
-                    Credited			</th>
-                <th rowspan="2">
-                    Not paid			</th>
-            </tr>
-            <tr>
-                <th>
-                    Nr
-                </th>
-                <th>
-                    Date			</th>
-                <th>
-                    1 sem.			</th>
-                <th>
-                    2 sem.			</th>
-                <th>
-                    1 sem.			</th>
-                <th>
-                    2 sem.			</th>
-                <th>
-                    1 sem.			</th>
-                <th>
-                    2 sem.			</th>
-                <th>
-                    1 sem.			</th>
-                <th>
-                    2 sem.			</th>
-                <th>
-                    1 sem.			</th>
-                <th>
-                    2 sem.			</th>
-                <th>
-                    1 sem.			</th>
-                <th>
-                    2 sem.			</th>
-            </tr>
-            </thead>
-            <tbody>
-                <tr ng-repeat="contract in contracts">
-                    <td>{{contract.period}}</td>
-                    <td>{{contract.number}}</td>
-                    <td>{{contract.date}}</td>
-                    <td>{{contract.faculty}}</td>
-                    <td>{{contract.programme}}</td>
-                    <td>{{contract.study_year}}</td>
-                    <td>{{contract.department}}</td>
-                    <td>{{contract.sum_1}}</td>
-                    <td>{{contract.sum_2}}</td>
-                    <td>{{contract.discount_per_1}}</td>
-                    <td>{{contract.discount_per_2}}</td>
-                    <td>{{contract.discount_cur_1}}</td>
-                    <td>{{contract.discount_cur_2}}</td>
-                    <td>{{contract.payment_sum_1}}</td>
-                    <td>{{contract.payment_sum_2}}</td>
-                    <td>{{contract.pyament_type_1}}</td>
-                    <td>{{contract.pyament_type_2}}</td>
-                    <td>{{contract.credit_1}}</td>
-                    <td>{{contract.credit_2}}</td>
-                    <td>{{contract.paid}}</td>
-                    <td>{{contract.credited}}</td>
-                    <td>{{contract.not_paid}}</td>
-                </tr>
-            </tbody>
+                            <th rowspan="2">
+                                Programme
+                            </th>
+                            <th rowspan="2">
+                                Year of study
+                            </th>
+                            <th rowspan="2">
+                                Department
+                            </th>
+                            <th colspan="2">
+                                Sum, Eiro
+                            </th>
+                            <th colspan="2">
+                                Discount%
+                            </th>
+                            <th colspan="2">
+                                Discount, Eiro
+                            </th>
+                            <th colspan="2">
+                                Sum for payment, Eiro
+                            </th>
+                            <th colspan="2">
+                                Type of payment
+                            </th>
+                            <th colspan="2">
+                                Credit
+                            </th>
+                            <th rowspan="2">
+                                Paid
+                            </th>
+                            <th rowspan="2">
+                                Credited
+                            </th>
+                            <th rowspan="2">
+                                Not paid
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                Nr
+                            </th>
+                            <th>
+                                Date
+                            </th>
+                            <th>
+                                1 sem.
+                            </th>
+                            <th>
+                                2 sem.
+                            </th>
+                            <th>
+                                1 sem.
+                            </th>
+                            <th>
+                                2 sem.
+                            </th>
+                            <th>
+                                1 sem.
+                            </th>
+                            <th>
+                                2 sem.
+                            </th>
+                            <th>
+                                1 sem.
+                            </th>
+                            <th>
+                                2 sem.
+                            </th>
+                            <th>
+                                1 sem.
+                            </th>
+                            <th>
+                                2 sem.
+                            </th>
+                            <th>
+                                1 sem.
+                            </th>
+                            <th>
+                                2 sem.
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="contract in contracts">
+                            <td>{{contract.period}}</td>
+                            <td>{{contract.number}}</td>
+                            <td>{{contract.date}}</td>
+                            <td>{{contract.faculty}}</td>
+                            <td>{{contract.programme}}</td>
+                            <td>{{contract.study_year}}</td>
+                            <td>{{contract.department}}</td>
+                            <td>{{contract.sum_1}}</td>
+                            <td>{{contract.sum_2}}</td>
+                            <td>{{contract.discount_per_1}}</td>
+                            <td>{{contract.discount_per_2}}</td>
+                            <td>{{contract.discount_cur_1}}</td>
+                            <td>{{contract.discount_cur_2}}</td>
+                            <td>{{contract.payment_sum_1}}</td>
+                            <td>{{contract.payment_sum_2}}</td>
+                            <td>{{contract.pyament_type_1}}</td>
+                            <td>{{contract.pyament_type_2}}</td>
+                            <td>{{contract.credit_1}}</td>
+                            <td>{{contract.credit_2}}</td>
+                            <td>{{contract.paid}}</td>
+                            <td>{{contract.credited}}</td>
+                            <td>{{contract.not_paid}}</td>
+                        </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>

@@ -1,0 +1,53 @@
+[
+    {
+        "day": "Monday 04.04.2016",
+        "schedule": [
+            {
+                "time": "18:15",
+                "audience": "503",
+                "lecture": "Algorithmic means of computer graphics",
+                "lecturer": "Irina Pticina"
+            },
+            {
+                "time": "18:15",
+                "audience": "503",
+                "lecture": "Algorithmic means of computer graphics",
+                "lecturer": "Irina Pticina"
+            }
+        ]
+    },
+    {
+        "day": "Monday 06.04.2016",
+        "schedule": [
+            {
+                "time": "18:15",
+                "audience": "503",
+                "lecture": "Algorithmic means of computer graphics",
+                "lecturer": "Irina Pticina"
+            },
+            {
+                "time": "18:15",
+                "audience": "503",
+                "lecture": "Algorithmic means of computer graphics",
+                "lecturer": "Irina Pticina"
+            }
+        ]
+    },
+    {
+        "day": "Monday 12.04.2016",
+        "schedule": [
+            {
+                "time": "18:15",
+                "audience": "503",
+                "lecture": "Algorithmic means of computer graphics",
+                "lecturer": "Irina Pticina"
+            },
+            {
+                "time": "18:15",
+                "audience": "503",
+                "lecture": "Algorithmic means of computer graphics",
+                "lecturer": "Irina Pticina"
+            }
+        ]
+    }
+]

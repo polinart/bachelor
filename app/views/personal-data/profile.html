@@ -11,97 +11,100 @@
         <img class="avatar img-thumbnail img-circle" src="img/avatar.jpg" alt="User"/>
     </div>
     <div class="col-md-7">
-        <!-- Nav tabs --><div class="card">
-        <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a data-target="#main" aria-controls="home" role="tab" data-toggle="tab">Main information</a></li>
-            <li role="presentation"><a data-target="#depts" aria-controls="profile" role="tab" data-toggle="tab">Depts</a></li>
-        </ul>
+        <!-- Nav tabs -->
+        <div class="card">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a data-target="#main" aria-controls="home" role="tab"
+                                                          data-toggle="tab">Main information</a></li>
+                <li role="presentation"><a data-target="#depts" aria-controls="profile" role="tab" data-toggle="tab">Depts</a>
+                </li>
+            </ul>
 
-        <!-- Tab panes -->
-        <div class="tab-content">
-            <div role="tabpanel" class="tab-pane active" id="main">
-                <table class="table">
-                    <tbody>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="main">
+                    <table class="table">
+                        <tbody>
 
-                    <tr>
-                        <td >Full name</td>
-                        <td >{{user.full_name}}</td>
-                    </tr>
-
-
-                    <tr>
-                        <td >Personal code</td>
-                        <td >{{user.personal_code}}</td>
-                    </tr>
-
-                    <tr>
-                        <td >Student code</td>
-                        <td >{{user.st_code}}</td>
-                    </tr>
-
-                    <tr>
-                        <td >Status</td>
-                        <td >{{user.status}}</td>
-                    </tr>
-
-                    <tr>
-                        <td>Faculty</td>
-                        <td >{{user.faculty}}</td>
-                    </tr>
-
-                    <tr>
-                        <td >Programme</td>
-                        <td >{{user.programme}}</td>
-                    </tr>
-
-                    <tr>
-
-                        <td >Level</td>
-                        <td >{{user.level}}</td>
-                    </tr>
+                        <tr>
+                            <td>Full name</td>
+                            <td>{{user.full_name}}</td>
+                        </tr>
 
 
-                    <tr>
-                        <td >Year of study</td>
-                        <td >{{user.study_year}}</td>
-                    </tr>
+                        <tr>
+                            <td>Personal code</td>
+                            <td>{{user.personal_code}}</td>
+                        </tr>
+
+                        <tr>
+                            <td>Student code</td>
+                            <td>{{user.st_code}}</td>
+                        </tr>
+
+                        <tr>
+                            <td>Status</td>
+                            <td>{{user.status}}</td>
+                        </tr>
+
+                        <tr>
+                            <td>Faculty</td>
+                            <td>{{user.faculty}}</td>
+                        </tr>
+
+                        <tr>
+                            <td>Programme</td>
+                            <td>{{user.programme}}</td>
+                        </tr>
+
+                        <tr>
+
+                            <td>Level</td>
+                            <td>{{user.level}}</td>
+                        </tr>
 
 
-                    <tr>
-                        <td >Department</td>
-                        <td >{{user.department}}</td>
-                    </tr>
-                    <tr>
-                        <td >Group</td>
-                        <td >{{user.group}}</td>
-                    </tr>
+                        <tr>
+                            <td>Year of study</td>
+                            <td>{{user.study_year}}</td>
+                        </tr>
 
-                    </tbody>
-                </table>
-            </div>
-            <div role="tabpanel" class="tab-pane" id="depts">
-                <table class="table">
-                    <tbody>
-                    <tr>
-                        <td>Financial debts</td>
-                        <td>{{user.financial_dept}}</td>
-                    </tr>
-                    <tr>
-                        <td>Debts on fines</td>
-                        <td>{{user.depts_on_fines}}</td>
-                    </tr>
-                    <tr>
-                        <td>Academic debts</td>
-                        <td>{{user.academic_dept}}</td>
-                    </tr>
-                    <tr>
-                        <td>Library debts</td>
-                        <td>{{user.library_depts}}</td>
-                    </tr>
-                    </tbody>
-                </table>
+
+                        <tr>
+                            <td>Department</td>
+                            <td>{{user.department}}</td>
+                        </tr>
+                        <tr>
+                            <td>Group</td>
+                            <td>{{user.group}}</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="depts">
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <td>Financial debts</td>
+                            <td>{{user.financial_dept}}</td>
+                        </tr>
+                        <tr>
+                            <td>Debts on fines</td>
+                            <td>{{user.depts_on_fines}}</td>
+                        </tr>
+                        <tr>
+                            <td>Academic debts</td>
+                            <td>{{user.academic_dept}}</td>
+                        </tr>
+                        <tr>
+                            <td>Library debts</td>
+                            <td>{{user.library_depts}}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
-    </div>
     </div>
 </div>
