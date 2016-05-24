@@ -144,7 +144,16 @@ angular
             })
             .state('dashboard.orders', {
                 templateUrl: 'views/personal-data/orders.html',
-                url: '/rectors-orders'
+                url: '/rectors-orders',
+                controller: 'rectorOrdersCtrl',
+                resolve: {
+                    loadMyFile: function ($ocLazyLoad) {
+                        return $ocLazyLoad.load({
+                            name: 'sbAdminApp',
+                            files: ['scripts/controllers/rectorOrdersCtrl.js']
+                        })
+                    }
+                }
             })
             .state('dashboard.grade', {
                 templateUrl: 'views/personal-data/grade.html',

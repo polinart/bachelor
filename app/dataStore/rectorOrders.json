@@ -1,0 +1,86 @@
+[
+    {
+        "number" : "2122 S",
+        "date" : "12.01.2012",
+        "time_to" : "12.01.2012",
+        "time_from" : "2122 S",
+        "content" : "imatrikulācija",
+        "faculty" : "12",
+        "programme" : "43481",
+        "study_year" : "1",
+        "department" : "day",
+        "course": ""
+    },
+    {
+        "number" : "2122 S",
+        "date" : "12.01.2012",
+        "time_to" : "12.01.2012",
+        "time_from" : "2122 S",
+        "content" : "tarifa noteikšana",
+        "faculty" : "12",
+        "programme" : "43481",
+        "study_year" : "1",
+        "department" : "day",
+        "course": "1 līmenis"
+    },
+    {
+        "number" : "2122 S",
+        "date" : "12.01.2012",
+        "time_to" : "12.01.2012",
+        "time_from" : "2122 S",
+        "content" : "tarifa noteikšana",
+        "faculty" : "12",
+        "programme" : "43481",
+        "study_year" : "1",
+        "department" : "day",
+        "course": "1 līmenis"
+    },
+    {
+        "number" : "2122 S",
+        "date" : "12.01.2012",
+        "time_to" : "12.01.2012",
+        "time_from" : "2122 S",
+        "content" : "pārcelšana",
+        "faculty" : "12",
+        "programme" : "43481",
+        "study_year" : "1",
+        "department" : "day",
+        "course": "uz nākošo kursu"
+    },
+    {
+        "number" : "2122 S",
+        "date" : "12.01.2012",
+        "time_to" : "12.01.2012",
+        "time_from" : "2122 S",
+        "content" : "tarifa noteikšana",
+        "faculty" : "12",
+        "programme" : "43481",
+        "study_year" : "1",
+        "department" : "day",
+        "course": "1 līmenis"
+    },
+    {
+        "number" : "2122 S",
+        "date" : "12.01.2012",
+        "time_to" : "12.01.2012",
+        "time_from" : "2122 S",
+        "content" : "tarifa noteikšana",
+        "faculty" : "12",
+        "programme" : "43481",
+        "study_year" : "1",
+        "department" : "day",
+        "course": "1 līmenis"
+    },
+    {
+        "number" : "2122 S",
+        "date" : "12.01.2012",
+        "time_to" : "12.01.2012",
+        "time_from" : "2122 S",
+        "content" : "pārcelšana",
+        "faculty" : "12",
+        "programme" : "43481",
+        "study_year" : "1",
+        "department" : "day",
+        "course": "uz nākošo kursu"
+    }
+]
