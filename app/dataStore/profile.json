@@ -1,0 +1,16 @@
+{
+    "full_name" : "John Doe",
+    "personal_code" : "211190-90001",
+    "st_code" : "55055",
+    "status" : "Student",
+    "faculty" : "12 - Faculty of Computer Science and Electronics",
+    "programme" : "43481 - Bachelor of Natural Sciences in Computer Science",
+    "level" : "Bachelor",
+    "study_year" : "4",
+    "department" : "full-time",
+    "group" : "4201BV",
+    "financial_dept" : "No",
+    "depts_on_fines" : "No",
+    "academic_dept" : "No",
+    "library_depts" : "No"
+}

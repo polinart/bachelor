@@ -103,13 +103,31 @@ angular
     })
 
 
-        .state('dashboard.details',{
-            templateUrl:'views/personal-data/personal-details.html',
-            url:'/personal-details'
+        .state('dashboard.profile',{
+            templateUrl:'views/personal-data/profile.html',
+            url:'/profile',
+            controller: 'profileCtrl',
+            resolve: {
+                loadMyFile: function($ocLazyLoad){
+                    return $ocLazyLoad.load({
+                        name:'sbAdminApp',
+                        files:['scripts/controllers/profileCtrl.js']
+                    })
+                }
+            }
         })
         .state('dashboard.contracts',{
             templateUrl:'views/personal-data/contracts.html',
-            url:'/contracts'
+            url:'/contracts',
+            controller: 'contractsListCtrl',
+            resolve: {
+                loadMyFile: function($ocLazyLoad){
+                    return $ocLazyLoad.load({
+                        name:'sbAdminApp',
+                        files:['scripts/controllers/contractsCtrl.js']
+                    })
+                }
+            }
 
         })
         .state('dashboard.payments',{
@@ -121,7 +139,6 @@ angular
             templateUrl:'views/personal-data/orders.html',
             url:'/rectors-orders'
         })
-
         .state('dashboard.grade', {
             templateUrl:'views/personal-data/grade.html',
             url:'/grade'
