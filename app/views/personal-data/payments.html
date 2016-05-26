@@ -9,79 +9,94 @@
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="table-responsive">
-                <table class="table table-bordered table-hover">
-                    <thead>
+                    <table class="table table-bordered table-hover">
+                        <thead>
                         <tr>
-                    <th rowspan="2">
-                        Date			</th>
-                    <th rowspan="2">
-                        Nr
-                    </th>
-                    <th rowspan="2">
-                        Service			</th>
-                    <th rowspan="2">
-                        Nr. of agreement			</th>
+                            <th rowspan="2">
+                                Date
+                            </th>
+                            <th rowspan="2">
+                                Nr
+                            </th>
+                            <th rowspan="2">
+                                Service
+                            </th>
+                            <th rowspan="2">
+                                Nr. of agreement
+                            </th>
 
-                    <th rowspan="2">
-                        Study year			</th>
-                    <th rowspan="2">
-                        Sum			</th>
-                    <th rowspan="2">
-                        VAT			</th>
-                    <th rowspan="2">
-                        Penalty fee			</th>
-                    <th rowspan="2">
-                        Total of the bill			</th>
-                    <th rowspan="2">
-                        Sum for payment			</th>
-                    <th colspan="2">
-                        Paid			</th>
-                    <th rowspan="2">
-                        Credit			</th>
-                    <th rowspan="2">
-                        Subject			</th>
+                            <th rowspan="2">
+                                Study year
+                            </th>
+                            <th rowspan="2">
+                                Sum
+                            </th>
+                            <th rowspan="2">
+                                VAT
+                            </th>
+                            <th rowspan="2">
+                                Penalty fee
+                            </th>
+                            <th rowspan="2">
+                                Total of the bill
+                            </th>
+                            <th rowspan="2">
+                                Sum for payment
+                            </th>
+                            <th colspan="2">
+                                Paid
+                            </th>
+                            <th rowspan="2">
+                                Credit
+                            </th>
+                            <th rowspan="2">
+                                Subject
+                            </th>
 
-                </tr>
+                        </tr>
                         <tr>
-                    <th>
-                        Date			</th>
-                    <th>
-                        Bank			</th>
-                </tr>
-                    </thead>
-                    <tbody>
+                            <th>
+                                Date
+                            </th>
+                            <th>
+                                Bank
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
                         <tr ng-repeat="payment in payments">
-                    <td >{{payment.date}}
-                    </td>
-                    <td >{{payment.number}}
-                    </td>
-                    <td  style="text-align:left;">{{payment.service}}
-                    </td>
-                    <td >{{payment.agreement_nr}}
-                    </td>
-                    <td >{{payment.study_year}}
-                    </td>
-                    <td  style="text-align:right;">{{payment.sum}}
-                    </td>
-                    <td  style="text-align:right;">{{payment.vat}}
-                    </td>
-                    <td  style="text-align:right;">{{payment.penalty_free}}
+                            <td>{{payment.date}}
+                            </td>
+                            <td>{{payment.number}}
+                            </td>
+                            <td style="text-align:left;">{{payment.service}}
+                            </td>
+                            <td>{{payment.agreement_nr}}
+                            </td>
+                            <td>{{payment.study_year}}
+                            </td>
+                            <td style="text-align:right;">{{payment.sum}}
+                            </td>
+                            <td style="text-align:right;">{{payment.vat}}
+                            </td>
+                            <td style="text-align:right;">{{payment.penalty_free}}
 
-                    </td><td  style="text-align:right;">{{payment.total_bill}}
-                </td>
-                    <td  style="text-align:right;">{{payment.payment_sum}}
-                    </td>
-                    <td >{{payment.paid_bank}}
-                    </td>
-                    <td >{{payment.credit}}
-                    </td>
-                    <td >{{payment.subject}}
-                    </td>
-                    <td >{{payment.date}}
-                    </td>
-                </tr>
-                    </tbody>
-                </table>
+                            </td>
+                            <td style="text-align:right;">{{payment.total_bill}}
+                            </td>
+                            <td style="text-align:right;">{{payment.payment_sum}}
+                            </td>
+                            <td>{{payment.paid_bank}}
+                            </td>
+                            <td>{{payment.credit}}
+                            </td>
+                            <td>{{payment.subject}}
+                            </td>
+                            <td>{{payment.date}}
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

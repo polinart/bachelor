@@ -168,10 +168,6 @@ angular
                     }
                 }
             })
-            .state('dashboard.faq', {
-                templateUrl: 'views/faq.html',
-                url: '/faq'
-            })
             .state('dashboard.documents', {
                 templateUrl: 'views/documents.html',
                 url: '/documents',

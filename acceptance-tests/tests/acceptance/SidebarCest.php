@@ -94,16 +94,6 @@ class SidebarCest
         $I->see('Documents and Statements templates');
     }
 
-    public function testToOpenFAQ(AcceptanceTester $I) {
-        $I->wantTo('open FAQ page');
-        $I->amOnPage('index.html#/dashboard/home');
-        $I->reloadPage();
-        $I->wait(1);
-        $I->seeElement('//*[@id="side-menu"]/li[9]/a');
-        $I->click('//*[@id="side-menu"]/li[9]/a');
-        $I->wait(1);
-        $I->see('Frequently Asked Questions');
-    }
 
     public function testThatPublicSiteMenuItemContainsCorrectLink(AcceptanceTester $I) {
         $I->wantTo('check public site menu item contains correct link');

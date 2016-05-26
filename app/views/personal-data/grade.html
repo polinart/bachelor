@@ -9,67 +9,78 @@
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="table-responsive">
-                <table class="table table-hover">
-                <thead>
-                <tr>
-                    <th>
-                        Nr
-                    </th>
-                    <th>
-                        Subject			</th>
-                    <th>
-                        Grade			</th>
-                    <th>
-                        Block			</th>
-                    <th>
-                        part			</th>
-                    <th>
-                        Credit points			</th>
-                    <th>
-                        Date of assessment			</th>
-                    <th>
-                        Type of reporting			</th>
-                    <th>
-                        Lecturer			</th>
-                    <th>
-                        report sheet / assignment / retesting			</th>
-                    <th>
-                        HEI			</th>
-                </tr>
-                </thead>
-                <tbody ng-repeat="semester in semesters">
-                <tr class="semester">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>
+                                Nr
+                            </th>
+                            <th>
+                                Subject
+                            </th>
+                            <th>
+                                Grade
+                            </th>
+                            <th>
+                                Block
+                            </th>
+                            <th>
+                                part
+                            </th>
+                            <th>
+                                Credit points
+                            </th>
+                            <th>
+                                Date of assessment
+                            </th>
+                            <th>
+                                Type of reporting
+                            </th>
+                            <th>
+                                Lecturer
+                            </th>
+                            <th>
+                                report sheet / assignment / retesting
+                            </th>
+                            <th>
+                                HEI
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody ng-repeat="semester in semesters">
+                        <tr class="semester">
 
-                    <td colspan="11" class="semester text-left">{{semester.semester}}
-                    </td>
-                </tr>
-                <tr ng-repeat="grade in semester.grades">
-                    <td>{{grade.number}}
-                </td>
-                    <td style="text-align:left;">{{grade.subject}}
-                    </td>
-                    <td>{{grade.grade}}
-                    </td>
-                    <td>{{grade.block}}
-                    </td>
-                    <td>{{grade.part}}
-                    </td>
-                    <td>{{grade.credit_points}}
-                    </td>
-                    <td>{{grades.assessment_date}}
-                    </td>
-                    <td>{{grade.reporting_type}}
-                    </td>
-                    <td style="text-align:left;">{{grade.lecturer}}
-                    </td>
+                            <td colspan="11" class="semester text-left">{{semester.semester}}
+                            </td>
+                        </tr>
+                        <tr ng-repeat="grade in semester.grades">
+                            <td>{{grade.number}}
+                            </td>
+                            <td style="text-align:left;">{{grade.subject}}
+                            </td>
+                            <td>{{grade.grade}}
+                            </td>
+                            <td>{{grade.block}}
+                            </td>
+                            <td>{{grade.part}}
+                            </td>
+                            <td>{{grade.credit_points}}
+                            </td>
+                            <td>{{grades.assessment_date}}
+                            </td>
+                            <td>{{grade.reporting_type}}
+                            </td>
+                            <td style="text-align:left;">{{grade.lecturer}}
+                            </td>
 
-                    <td>{{grade.report_type}}
-                    </td>
-                    <td style="text-align:left;">{{grade.hei}}
-                    </td>
-                </tr>
+                            <td>{{grade.report_type}}
+                            </td>
+                            <td style="text-align:left;">{{grade.hei}}
+                            </td>
+                        </tr>
 
-                </tbody></table>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
