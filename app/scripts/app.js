@@ -83,7 +83,7 @@ angular
                         return $ocLazyLoad.load({
                             name: 'sbAdminApp',
                             files: [
-                                'scripts/controllers/main.js',
+                                'scripts/controllers/mainPageCtrl.js',
                                 'scripts/directives/timeline/timeline.js',
                                 'scripts/directives/notifications/notifications.js',
                                 'scripts/directives/schedule/schedule.js',
