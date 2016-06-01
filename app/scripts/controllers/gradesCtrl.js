@@ -6,8 +6,14 @@
 angular.module('sbAdminApp')
     .controller('gradesCtrl', function ($scope, $http) {
 
-        $http.get('dataStore/grade.json').success(function (data) {
+        var url = 'dataStore/grade.json';
 
-            $scope.semesters = data;
-        });
+        getGrades(url, $scope, $http);
     });
+
+function getGrades (url, $scope, $http) {
+    $http.get(url).success(function (data) {
+
+        $scope.semesters = data;
+    });
+}

@@ -6,8 +6,14 @@
 angular.module('sbAdminApp')
     .controller('profileCtrl', function ($scope, $http) {
 
-        $http.get('dataStore/profile.json').success(function (data) {
-            $scope.user = data;
-        });
+        var url = 'dataStore/profile.json';
+
+        getProfile(url, $scope, $http);
 
     });
+
+function getProfile (url, $scope, $http) {
+    $http.get(url).success(function (data) {
+        $scope.user = data;
+    });
+}

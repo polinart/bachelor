@@ -6,8 +6,14 @@
 angular.module('sbAdminApp')
     .controller('rectorOrdersCtrl', function ($scope, $http) {
 
-        $http.get('dataStore/rectorOrders.json').success(function (data) {
+        var url = 'dataStore/rectorOrders.json';
 
-            $scope.orders = data;
-        });
+        getOrders(url, $scope, $http);
     });
+
+function getOrders (url, $scope, $http) {
+    $http.get(url).success(function (data) {
+
+        $scope.orders = data;
+    });
+}
